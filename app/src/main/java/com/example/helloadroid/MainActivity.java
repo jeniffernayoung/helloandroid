@@ -12,7 +12,7 @@ import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
-
+import android.util.Log;
 import com.example.helloadroid.databinding.ActivityMainBinding;
 
 import android.view.Menu;
@@ -29,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+
+        Log.i("tag", "hello android");
 
         setSupportActionBar(binding.toolbar);
 
