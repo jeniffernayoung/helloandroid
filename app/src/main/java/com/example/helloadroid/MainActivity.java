@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        Log.i("tag", "hello android");
+        Log.i("tag", "hello master");
 
         setSupportActionBar(binding.toolbar);
 
